@@ -67,3 +67,26 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
+/* Quote Section */
+.quote {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quote blockquote {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #333;
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.quote .author {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #777;
+}
