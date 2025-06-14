@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+  background-color: #ffffff; /* update based on Figma */
+  padding: 20px 40px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000; /* update based on Figma */
+}
+
+/* Banner Section */
+.banner {
+  background-image: url('your-banner-image.jpg'); /* update with real image path */
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* match Figma */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-content {
+  color: white;
+  max-width: 700px;
+}
+
+.banner h1 {
+  font-size: 48px; /* match Figma */
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #ff5733; /* match Figma */
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
